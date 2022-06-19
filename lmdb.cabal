@@ -43,8 +43,6 @@ Library
 
   Other-Modules:
 
-  include-dirs:
-  c-sources:
-  extra-libraries: lmdb
+  pkgconfig-depends: liblmdb -any
 
   ghc-options: -Wall -fprof-auto
