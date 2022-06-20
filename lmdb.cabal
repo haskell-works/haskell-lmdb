@@ -43,6 +43,6 @@ Library
 
   Other-Modules:
 
-  pkgconfig-depends: liblmdb -any
+  pkgconfig-depends: lmdb -any
 
   ghc-options: -Wall -fprof-auto
